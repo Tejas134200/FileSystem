@@ -1,0 +1,127 @@
+{
+  "name": "src",
+  "type": "folder",
+  "children": [
+    {
+      "name": "components",
+      "type": "folder",
+      "children": [
+        {
+          "name": "common",
+          "type": "folder",
+          "children": [
+            { "name": "Button.tsx", "type": "file" },
+            { "name": "Input.tsx", "type": "file" },
+            { "name": "Modal.tsx", "type": "file" },
+            { "name": "Loader.tsx", "type": "file" }
+          ]
+        },
+        {
+          "name": "layout",
+          "type": "folder",
+          "children": [
+            { "name": "Navbar.tsx", "type": "file" },
+            { "name": "Sidebar.tsx", "type": "file" },
+            { "name": "Footer.tsx", "type": "file" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pages",
+      "type": "folder",
+      "children": [
+        {
+          "name": "auth",
+          "type": "folder",
+          "children": [
+            { "name": "Login.tsx", "type": "file" },
+            { "name": "Register.tsx", "type": "file" },
+            { "name": "ForgotPassword.tsx", "type": "file" }
+          ]
+        },
+        {
+          "name": "dashboard",
+          "type": "folder",
+          "children": [
+            { "name": "Home.tsx", "type": "file" },
+            { "name": "Analytics.tsx", "type": "file" },
+            { "name": "Reports.tsx", "type": "file" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hooks",
+      "type": "folder",
+      "children": [
+        { "name": "useAuth.ts", "type": "file" },
+        { "name": "useTheme.ts", "type": "file" },
+        { "name": "useDebounce.ts", "type": "file" }
+      ]
+    },
+    {
+      "name": "services",
+      "type": "folder",
+      "children": [
+        { "name": "api.ts", "type": "file" },
+        { "name": "auth.ts", "type": "file" },
+        { "name": "user.ts", "type": "file" }
+      ]
+    },
+    {
+      "name": "store",
+      "type": "folder",
+      "children": [
+        { "name": "authSlice.ts", "type": "file" },
+        { "name": "themeSlice.ts", "type": "file" },
+        { "name": "index.ts", "type": "file" }
+      ]
+    },
+    {
+      "name": "utils",
+      "type": "folder",
+      "children": [
+        { "name": "constants.ts", "type": "file" },
+        { "name": "helpers.ts", "type": "file" },
+        { "name": "validators.ts", "type": "file" }
+      ]
+    },
+    {
+      "name": "assets",
+      "type": "folder",
+      "children": [
+        {
+          "name": "images",
+          "type": "folder",
+          "children": [
+            { "name": "logo.png", "type": "file" },
+            { "name": "banner.png", "type": "file" },
+            { "name": "avatar.png", "type": "file" }
+          ]
+        },
+        {
+          "name": "icons",
+          "type": "folder",
+          "children": [
+            { "name": "home.svg", "type": "file" },
+            { "name": "settings.svg", "type": "file" },
+            { "name": "profile.svg", "type": "file" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "config",
+      "type": "folder",
+      "children": [
+        { "name": "env.ts", "type": "file" },
+        { "name": "routes.ts", "type": "file" },
+        { "name": "theme.ts", "type": "file" }
+      ]
+    },
+    { "name": "App.tsx", "type": "file" },
+    { "name": "main.tsx", "type": "file" },
+    { "name": "index.css", "type": "file" }
+  ]
+}

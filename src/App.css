@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+}
+
+.explorer {
+  width: 300px;
+  min-height: 100vh;
+  background: #252526;
+  padding: 10px;
+}
+
+.node {
+  padding: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.node:hover {
+  background: #37373d;
+}
